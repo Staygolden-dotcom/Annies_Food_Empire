@@ -177,7 +177,7 @@ header button {
   justify-self: center;
   height: 80vh;
   width: 100%;
-  background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(../Ann/hero-hero.jpg);
+  background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(./hero-hero.jpg);
   background-position: center;
   background-size: cover;
   filter: brightness(1.1);
@@ -238,7 +238,7 @@ image-rendering: optimizeQuality;
     border-radius: 0 0 0 0;
     box-shadow: none;
     width: 100%;
-    background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(../Ann/fried-rice-and-stewbeef.jpg);
+    background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(./fried-rice-and-stewbeef.jpg);
   }
   .hero-img img {
   max-width: 200px;
@@ -262,7 +262,7 @@ image-rendering: optimizeQuality;
   justify-items: center;
   margin-top: 60px;
   height: 400px;
-  background: url(../images/torn-page.jpg);
+  background: url(./torn-page.jpg);
   background-position: center;
   background-size: 100vw 400px;
   background-repeat: no-repeat;
@@ -440,19 +440,19 @@ image-rendering: optimizeQuality;
   color: rgba(250, 250, 250, 0.8);
 }
 .dish1 {
-   background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(../Ann/jollof.jpg);
+   background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(./jollof.jpg);
    background-position: center;
    background-size: cover;
 }
 .specials-dish-left {
-   background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(../Ann/egusi-soup-3.jpg);
+   background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(./egusi-soup-3.jpg);
 }
 
 .specials-dish-right {
-    background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(../Ann/jollof-spagetti-cropped.jpg);
+    background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(./jollof-spagetti-cropped.jpg);
 }
 .dish3 {
-   background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(../images/chicken-shawama.jpg);
+   background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), url(./chicken-shawama.jpg);
    background-position: center;
    background-size: cover;
 }
