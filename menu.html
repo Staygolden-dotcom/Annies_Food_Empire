@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Annie' Food Empire</title>
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo" >
+      <p>Annie's <br/><span>Food</span> Empire</p>
+    </div>
+  
+  <!-- Navigation Links -->
+    <nav id="nav-links">
+      <a href="./home page/index.html" onclick="toggleMenu()"> <i class="fa-solid fa-home" style="color: black; font-size: 1.5em;"></i></a>
+      <a href="#contactme"> <i class="fa-solid fa-phone" style="color: black; font-size: 1.5em;"></i></a>
+    
+      <div class="cart-icon" id="cart-icon" aria-label="Cart" role="button" tabindex="0">
+            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+              <span id="cart-count">0</span>
+      </div>
+    </nav> 
+  </header>
+
+   <!-- Confirmation message placeholder at the top -->
+<div id="confirmationMsg" style="display:none; background-color: #d4edda; color: #155724; padding: 15px; text-align: center; font-weight: bold;">
+  Your message has been sent!
+</div>
+
+  <section class="empty"></section>
+
+
+<!-- menu -->
+
+    <main>
+        <div class="our-menu">
+            <h1>Our Menu</h1>
+        </div>
+        
+        <section class="menu-category" id="rice">
+            <h2>Rice</h2>
+            <div class="menu-items"></div>
+        </section>
+
+        <section class="menu-category" id="protein">
+            <h2>Protein</h2>
+            <div class="menu-items"></div>
+        </section>
+
+         <section class="menu-category" id="beans">
+            <h2>Beans</h2>
+            <div class="menu-items"></div>
+        </section>
+
+         <section class="menu-category" id="soup">
+            <h2>Soup</h2>
+            <div class="menu-items"></div>
+        </section>
+
+         <section class="menu-category" id="swallow">
+            <h2>Swallow</h2>
+            <div class="menu-items"></div>
+        </section>
+
+
+         <section class="menu-category" id="pasta">
+            <h2>Pasta Fiesta</h2>
+            <div class="menu-items"></div>
+        </section>
+
+
+        <section class="menu-category" id="sides">
+            <h2>sides</h2>
+            <div class="menu-items"></div>
+        </section>
+
+         <section class="menu-category" id="wraps">
+            <h2>Wraps & Rolls</h2>
+            <div class="menu-items"></div>
+        </section>
+    </main>
+
+    <aside id="cart-panel" class="cart-panel" aria-hidden="true">
+        <header>
+            <h3>Your Cart</h3>
+            <button id="close-cart" aria-label="Close cart">&times;</button>
+        </header>
+        <div class="cart-content">
+            <ul id="cart-items"></ul>
+            <p id="empty-cart-msg">Your cart is empty.</p>
+        </div>
+        <footer>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-price"> <i class="fa-solid fa-peso-sign" style="font-size: 16px;"></i> 0.00</span>
+            </div>
+            <button id="checkout-btn">Checkout</button>
+        </footer>
+    </aside>
+    <!-- menu ends -->
+
+    <div id="contactme"></div>
+  <br/>
+  <br/>
+  <br/>
+
+
+<!-- contact -->
+<section id="contact">
+  <h1>Contact Us</h1>
+  <p>We’d love to hear from you! Whether you have a question, want to place an order, or need catering info — get in touch.</p>
+
+  <div class="contact-container">
+    <!-- Contact Form -->
+    <form id="contactForm" class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your Name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your Email">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h3>Call or Email</h3>
+      <p>📞 (+69) 0000-000<br>📧 contact@Anniesfoodempire@gmail.com</p>
+    </div> 
+
+    <div class="footer-social">
+      <div class="social-head">
+          <h3>Follow us</h3>
+        </div>
+        <a href="#" aria-label="Facebook">
+         <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+  </div>
+</section>
+    <!-- contact ends -->
+
+    <!-- back to top -->
+      <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fa-solid fa-arrow-up" style="font-size: 2em; color: gold;"></i></button>
+    <!-- back to top ends -->
+
+<!-- footer -->
+    <footer>
+    <p>&copy; 2025 Annies food_empire. All rights reserved.</p>
+  </footer>
+<!-- footer ends -->
+
+    <script src="./menu.js"></script>
+</body>
+</html>
