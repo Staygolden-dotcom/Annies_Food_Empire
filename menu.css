@@ -285,7 +285,7 @@ main h1 {
     padding: 10px 15px;
     font-weight: bold;
     border-top: 1px solid orange;
-    color: black;
+    color: orange;
 }
 #checkout-btn {
     background: orange;
