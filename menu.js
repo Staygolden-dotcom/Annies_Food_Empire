@@ -12,12 +12,12 @@ const menuData = {
     {
       name: "Jollof Rice",
       price: 350,
-      img: "jollof-rice-chiken-plantain.jpg",
+      img: "/jollof-rice-chiken-plantain.jpg",
     },
     {
       name: "Fried Rice ",
       price: 300,
-      img: "fried-rice.jpg",
+      img: "/fried-rice.jpg",
     },
     {
       name: "Coconut Fried Rice",
