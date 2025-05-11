@@ -2,13 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Montserrat;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
   background: black;
   color: white;
-  scroll-behavior: smooth;
 }
 
 /* Navigation section */
@@ -31,7 +32,7 @@ body {
   padding-right: 120px;
 }
 .logo p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
 }
 .logo p span {
   color: white;
