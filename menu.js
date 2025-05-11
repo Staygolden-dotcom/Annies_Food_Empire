@@ -122,7 +122,7 @@ const menuData = {
     {
       name: "Alfredo",
       price: 400,
-      img: "spag.jpg",
+      img: "alfredo.jpg",
     },
     {
       name: "Spagetti Bolognese",
