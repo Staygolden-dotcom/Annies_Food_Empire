@@ -12,32 +12,32 @@ const menuData = {
     {
       name: "Jollof Rice",
       price: 350,
-      img: "/jollof-rice-chiken-plantain.jpg",
+      img: "jollof-rice-chiken-plantain.jpg",
     },
     {
       name: "Fried Rice ",
       price: 300,
-      img: "/fried-rice.jpg",
+      img: "fried-rice.jpg",
     },
     {
       name: "Coconut Fried Rice",
       price: 400,
-      img: "/coconut-fried-rice.jpg",
+      img: "coconut-fried-rice.jpg",
     },
     {
       name: "Native Rice",
       price: 400,
-      img: "/native-rice.jpg",
+      img: "native-rice.jpg",
     },
     {
       name: "Rice and Stew",
       price: 400,
-      img: "/rice-and-stew.jpg",
+      img: "rice-and-stew.jpg",
     },
     {
       name: "Oriental Rice",
       price: 400,
-      img: "/orientail-fried-rice.jpg",
+      img: "orientail-fried-rice.jpg",
     },
   ],
 
@@ -45,22 +45,22 @@ const menuData = {
     {
       name: "Peppered Chicken",
       price: 350,
-      img: "/chicken.jpg",
+      img: "chicken.jpg",
     },
     {
       name: "Peppered Beef",
       price: 300,
-      img: "/beef.jpg",
+      img: "beef.jpg",
     },
     {
       name: "Turkey wing",
       price: 400,
-      img: "/turkey-wings.jpg",
+      img: "turkey-wings.jpg",
     },
     {
       name: "Egg",
       price: 400,
-      img: "/eggs.jpg",
+      img: "eggs.jpg",
     },
   ],
 
@@ -68,17 +68,17 @@ const menuData = {
     {
       name: "Ewagoyin",
       price: 6.99,
-      img: "/ewagoyin.jpg",
+      img: "ewagoyin.jpg",
     },
     {
       name: "beans porridge",
       price: 5.49,
-      img: "/beans-and-plantain.jpg",
+      img: "beans-and-plantain.jpg",
     },
     {
       name: "White Beans",
       price: 7.25,
-      img: "/white-beans.jpg",
+      img: "white-beans.jpg",
     },
   ],
 
@@ -86,17 +86,17 @@ const menuData = {
     {
       name: "Egusi Soup",
       price: 6.99,
-      img: "/egusi-soup.jpg",
+      img: "egusi-soup.jpg",
     },
     {
       name: "Okro Soup",
       price: 5.49,
-      img: "/okro-soup.jpg",
+      img: "okro-soup.jpg",
     },
     {
       name: "Vegitable Soup",
       price: 7.25,
-      img: "/vegitable-soup.jpg",
+      img: "vegitable-soup.jpg",
     },
   ],
 
@@ -104,17 +104,17 @@ const menuData = {
     {
       name: "Eba",
       price: 350,
-      img: "/eba.jpg",
+      img: "eba.jpg",
     },
     {
       name: "Wheat",
       price: 300,
-      img: "/wheat.jpg",
+      img: "wheat.jpg",
     },
     {
       name: "Starch",
       price: 400,
-      img: "/starch.jpg",
+      img: "starch.jpg",
     },
   ],
 
@@ -122,27 +122,27 @@ const menuData = {
     {
       name: "Jollof Spagetti",
       price: 350,
-      img: "/jollof-spagetti.jpg",
+      img: "jollof-spagetti.jpg",
     },
     {
       name: "Alfredo",
       price: 400,
-      img: "/alfredo.jpg",
+      img: "alfredo.jpg",
     },
     {
       name: "Spagetti Bolognese",
       price: 400,
-      img: "/spagetti-bolognese.jpg",
+      img: "spagetti-bolognese.jpg",
     },
     {
       name: "Beefaroni",
       price: 400,
-      img: "/beefaroni.jpg",
+      img: "beefaroni.jpg",
     },
     {
       name: "Macaroni Salad",
       price: 400,
-      img: "/macaroni-salad.jpg",
+      img: "macaroni-salad.jpg",
     },
   ],
 
@@ -150,22 +150,22 @@ const menuData = {
     {
       name: "Moi-Moi",
       price: 300,
-      img: "/moimoi.jpg",
+      img: "moimoi.jpg",
     },
     {
       name: "Fried Plantain",
       price: 350,
-      img: "/fried-plantain.jpg",
+      img: "fried-plantain.jpg",
     },
     {
       name: "Puff-puff .6px",
       price: 350,
-      img: "/cake.jpg",
+      img: "cake.jpg",
     },
     {
       name: "Egg-roll  .1px",
       price: 300,
-      img: "/egg-roll.jpg",
+      img: "egg-roll.jpg",
     },
   ],
 
@@ -173,22 +173,22 @@ const menuData = {
     {
       name: "Beef Shawarma",
       price: 350,
-      img: "/beef-shawama.jpg",
+      img: "beef-shawama.jpg",
     },
     {
       name: "chicken Shawarma",
       price: 300,
-      img: "/chicken-shawama.jpg",
+      img: "chicken-shawama.jpg",
     },
     {
       name: "Spring-Roll  .6px",
       price: 300,
-      img: "/spring-roll.jpg",
+      img: "spring-roll.jpg",
     },
     {
       name: "Samosa  .6px",
       price: 300,
-      img: "/samosa.jpg",
+      img: "samosa.jpg",
     },
   ],
 };
