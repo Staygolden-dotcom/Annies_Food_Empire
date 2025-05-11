@@ -12,7 +12,7 @@ const menuData = {
     {
       name: "Jollof Rice",
       price: 350,
-      img: "jollof-rice-chiken-plantain.jpg",
+      img: "/jollof-rice-chiken-plantain.jpg",
     },
     {
       name: "Fried Rice ",
@@ -37,7 +37,7 @@ const menuData = {
     {
       name: "Oriental Rice",
       price: 400,
-      img: "images/orientail-fried-rice.jpg",
+      img: "orientail-fried-rice.jpg",
     },
   ],
 
@@ -45,7 +45,7 @@ const menuData = {
     {
       name: "Peppered Chicken",
       price: 350,
-      img: "images/chicken.jpg",
+      img: "chicken.jpg",
     },
     {
       name: "Peppered Beef",
