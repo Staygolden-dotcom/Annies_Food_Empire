@@ -53,11 +53,6 @@ const menuData = {
       img: "beef.jpg",
     },
     {
-      name: "Turkey wing",
-      price: 400,
-      img: "turkey-wings.jpg",
-    },
-    {
       name: "Egg",
       price: 400,
       img: "eggs.jpg",
