@@ -30,6 +30,7 @@ body {
   color: black;
   display: flex;
   padding-right: 120px;
+  font-family: Montserrat;
 }
 .logo p {
   font-family: Montserrat;
