@@ -177,7 +177,7 @@ header button {
   justify-self: center;
   height: 80vh;
   width: 100%;
-  background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), img(./hero-hero.jpg);
+  background: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / 0)), img(hero-hero.jpg);
   background-position: center;
   background-size: cover;
   filter: brightness(1.1);
